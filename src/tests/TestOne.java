@@ -33,10 +33,12 @@ public class TestOne extends BaseTest {
 		log.info("Username entered: " + objReadExcel.getValuefromTestData(1,"UserName"));
 		eTest.info("Ext. Username entered: " + objReadExcel.getValuefromTestData(1,"UserName"));
 		
+		//Enter Password
 		objHome.enterPwd(objReadExcel.getValuefromTestData(1,"Password"));
 		log.info("Password entered: " + objReadExcel.getValuefromTestData(1,"Password"));
 		eTest.info("Ext. Password entered: " + objReadExcel.getValuefromTestData(1,"Password"));
 		
+		//Click Sign In button
 		objHome.clickSignInBtn();
 		log.info("Sign In button clicked.");
 		log.info("Home Page title is:" + objHome.getPageTitle());
