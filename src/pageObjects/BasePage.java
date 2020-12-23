@@ -10,8 +10,9 @@ public class BasePage {
 	
 	protected WebDriver driver;
 	WebDriverWait wait;
+
 	
-	public BasePage (WebDriver driver){
+	public BasePage (WebDriver driver) {
 		
 		this.driver= driver;
 		PageFactory.initElements(driver,this);
@@ -27,6 +28,8 @@ public class BasePage {
 		
 		wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
+		
+		
 		
 	}
 	

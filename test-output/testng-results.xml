@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite for Base Class" duration-ms="28674" started-at="2020-10-17T15:30:27Z" finished-at="2020-10-17T15:30:56Z">
+  <suite name="Suite for Base Class" duration-ms="45463" started-at="2020-12-23T10:13:47Z" finished-at="2020-12-23T10:14:32Z">
     <groups>
     </groups>
-    <test name="TestNew" duration-ms="28674" started-at="2020-10-17T15:30:27Z" finished-at="2020-10-17T15:30:56Z">
+    <test name="TestNew" duration-ms="45463" started-at="2020-12-23T10:13:47Z" finished-at="2020-12-23T10:14:32Z">
       <class name="tests.TestOne">
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:tests.TestOne@47c62251]" name="tearUp" is-config="true" duration-ms="6685" started-at="2020-10-17T21:00:27Z" finished-at="2020-10-17T21:00:34Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:tests.TestOne@47c62251]" name="tearUp" is-config="true" duration-ms="6774" started-at="2020-12-23T15:43:47Z" finished-at="2020-12-23T15:43:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="TCOne()[pri:0, instance:tests.TestOne@47c62251]" name="TCOne" duration-ms="17165" started-at="2020-10-17T21:00:34Z" finished-at="2020-10-17T21:00:51Z">
+        <test-method status="PASS" signature="TCOne()[pri:0, instance:tests.TestOne@47c62251]" name="TCOne" duration-ms="33019" started-at="2020-12-23T15:43:54Z" finished-at="2020-12-23T15:44:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCOne -->
-        <test-method status="PASS" signature="TCTwo()[pri:0, instance:tests.TestOne@47c62251]" name="TCTwo" duration-ms="4464" started-at="2020-10-17T21:00:51Z" finished-at="2020-10-17T21:00:55Z">
+        <test-method status="PASS" signature="TCTwo()[pri:0, instance:tests.TestOne@47c62251]" name="TCTwo" duration-ms="5188" started-at="2020-12-23T15:44:27Z" finished-at="2020-12-23T15:44:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCTwo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestOne@47c62251]" name="tearDown" is-config="true" duration-ms="328" started-at="2020-10-17T21:00:55Z" finished-at="2020-10-17T21:00:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestOne@47c62251]" name="tearDown" is-config="true" duration-ms="447" started-at="2020-12-23T15:44:32Z" finished-at="2020-12-23T15:44:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

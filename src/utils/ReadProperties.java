@@ -17,9 +17,16 @@ public class ReadProperties {
 	
 	public String getFlipkartUrl(){
 		
-		String flipkartUrl =prop1.getProperty("URL_Flipkart");	;
+		String flipkartUrl =prop1.getProperty("URL_Flipkart");
 		return flipkartUrl;
 	
+	}
+	
+	public String getUrl(){
+		
+		String baseUrl = prop1.getProperty("URL");
+		return baseUrl;
+		
 	}
 
 }

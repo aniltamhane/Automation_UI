@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import pageObjects.HomePage;
 import pageObjects.MyAccount;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import org.testng.Assert;
@@ -14,13 +15,13 @@ public class TestOne extends BaseTest {
 	MyAccount objMyacc;
 	
 	
-	@Test
+	@Test(priority=1)
 	public void TCOne() throws IOException{
 		
 		objHome = PageFactory.initElements(driver, HomePage.class);
 		eTest = extent.createTest("Test One");
 		
-		objHome.openHomePage();
+		objHome.openHomePage(objReadProperties.getUrl());
 		objHome.clickSignIn();
 		log.info("Login Page title is:" + objHome.getPageTitle());
 		
@@ -49,7 +50,7 @@ public class TestOne extends BaseTest {
 	}
 
 	
-	@Test
+	@Test(priority=2)
 	public void TCTwo() throws IOException{
 		
 		objMyacc = PageFactory.initElements(driver, MyAccount.class);

@@ -1,9 +1,5 @@
 package pageObjects;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,7 +21,7 @@ public class HomePage extends BasePage{
 	WebElement SignInBtn;
 	
 	
-	public HomePage(WebDriver driver) {
+	public HomePage(WebDriver driver)  {
 		
 		super(driver);
 	}
@@ -35,14 +31,9 @@ public class HomePage extends BasePage{
 		SignInLink.click();
 	}
 			
-	public void openHomePage() throws IOException{
+	public void openHomePage(String urlone){
 	
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\properties\\projectProperties.properties");
-		Properties prop = new Properties();
-		
-		prop.load(file);
-		String baseUrl = prop.getProperty("URL");	
-		driver.get(baseUrl);
+		openUrl(urlone);
 	}
 	
 	public void enterUsername (String username){

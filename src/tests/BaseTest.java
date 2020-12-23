@@ -1,5 +1,7 @@
 package tests;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -13,6 +15,7 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import utils.ReadDataFromExcel;
+import utils.ReadProperties;
 
 
 public class BaseTest {
@@ -23,6 +26,7 @@ public class BaseTest {
     ExtentHtmlReporter htmlReporter;
     ExtentReports extent;
     ExtentTest eTest;
+    ReadProperties objReadProperties;
     	
 	@BeforeClass
 	public void tearUp() {
@@ -33,6 +37,14 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		log.info("Browser opened, window maximised.");
 		objReadExcel = new ReadDataFromExcel();
+		try {
+			
+			objReadProperties = new ReadProperties();
+	
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		htmlReporter = new ExtentHtmlReporter("C:\\Eclipse_Selenium_Workspace\\Automation_UI\\ExtentReportResults.html");
 	

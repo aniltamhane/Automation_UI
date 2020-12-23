@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,13 +13,14 @@ public class FlipkartHomePage extends BasePage {
 	
 	@FindBy (xpath = "//*[@id='container']/div/div[2]/div/div/span[1]")
 	WebElement electronics;
-	
 		
-	public FlipkartHomePage(WebDriver driver){
-		
-		super(driver);
+		public FlipkartHomePage(WebDriver driver) throws IOException{
+			
+			super(driver);
+			
 		
 	}
+
 	
 	public void openFlipkartUrl(String flipUrl){
 		
