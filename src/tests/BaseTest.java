@@ -31,11 +31,12 @@ public class BaseTest {
 	@BeforeClass
 	public void tearUp() {
 		
-		log = Logger.getLogger(BaseTest.class);
-		
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
+		
+		log = Logger.getLogger(getClass());
 		log.info("Browser opened, window maximised.");
+		
 		objReadExcel = new ReadDataFromExcel();
 		try {
 			

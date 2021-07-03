@@ -67,7 +67,7 @@ public class TestOne extends BaseTest {
 		//Assert.assertEquals(objHome.getPageTitle(), "T-shirts - My Store");
 		if (pageTitle.equals(objHome.getPageTitle())){
 			
-			eTest.info("Page title for T-Shirt is:" + objHome.getPageTitle() + "Test Pass");
+			eTest.pass("Page title for T-Shirt is:" + objHome.getPageTitle() + "Test Pass");
 		
 		}
 		else{
@@ -96,7 +96,7 @@ public class TestOne extends BaseTest {
 		//Assert.assertEquals(objHome.getPageTitle(), "T-shirts - My Store");
 		if (pageTitle.equals(objHome.getPageTitle())){
 			
-			eTest.info("Page title for T-Shirt is:" + objHome.getPageTitle() + "Test Pass");
+			eTest.pass("Page title for T-Shirt is:" + objHome.getPageTitle() + "Test Pass");
 		
 		}
 		else{

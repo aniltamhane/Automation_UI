@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite for Base Class" duration-ms="36113" started-at="2021-07-03T06:55:27Z" finished-at="2021-07-03T06:56:03Z">
+  <suite name="Suite for Base Class" duration-ms="32377" started-at="2021-07-03T07:20:17Z" finished-at="2021-07-03T07:20:49Z">
     <groups>
     </groups>
-    <test name="TestNew" duration-ms="36113" started-at="2021-07-03T06:55:27Z" finished-at="2021-07-03T06:56:03Z">
+    <test name="TestNew" duration-ms="32377" started-at="2021-07-03T07:20:17Z" finished-at="2021-07-03T07:20:49Z">
       <class name="tests.TestOne">
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:tests.TestOne@47c62251]" name="tearUp" is-config="true" duration-ms="13818" started-at="2021-07-03T12:25:27Z" finished-at="2021-07-03T12:25:41Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:tests.TestOne@47c62251]" name="tearUp" is-config="true" duration-ms="12031" started-at="2021-07-03T12:50:17Z" finished-at="2021-07-03T12:50:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="TCOne()[pri:0, instance:tests.TestOne@47c62251]" name="TCOne" duration-ms="14652" started-at="2021-07-03T12:25:41Z" finished-at="2021-07-03T12:25:55Z">
+        <test-method status="PASS" signature="TCOne()[pri:0, instance:tests.TestOne@47c62251]" name="TCOne" duration-ms="13644" started-at="2021-07-03T12:50:29Z" finished-at="2021-07-03T12:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCOne -->
-        <test-method status="PASS" signature="TCTwo()[pri:0, instance:tests.TestOne@47c62251]" name="TCTwo" duration-ms="4549" started-at="2021-07-03T12:25:55Z" finished-at="2021-07-03T12:26:00Z">
+        <test-method status="PASS" signature="TCTwo()[pri:0, instance:tests.TestOne@47c62251]" name="TCTwo" duration-ms="3651" started-at="2021-07-03T12:50:42Z" finished-at="2021-07-03T12:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCTwo -->
-        <test-method status="PASS" signature="TCThree()[pri:0, instance:tests.TestOne@47c62251]" name="TCThree" duration-ms="2657" started-at="2021-07-03T12:26:00Z" finished-at="2021-07-03T12:26:03Z">
+        <test-method status="PASS" signature="TCThree()[pri:0, instance:tests.TestOne@47c62251]" name="TCThree" duration-ms="2596" started-at="2021-07-03T12:50:46Z" finished-at="2021-07-03T12:50:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCThree -->
-        <test-method status="PASS" signature="TCFour_TShirts()[pri:0, instance:tests.TestOne@47c62251]" name="TCFour_TShirts" duration-ms="31" started-at="2021-07-03T12:26:03Z" finished-at="2021-07-03T12:26:03Z">
+        <test-method status="PASS" signature="TCFour_TShirts()[pri:0, instance:tests.TestOne@47c62251]" name="TCFour_TShirts" duration-ms="47" started-at="2021-07-03T12:50:49Z" finished-at="2021-07-03T12:50:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCFour_TShirts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestOne@47c62251]" name="tearDown" is-config="true" duration-ms="390" started-at="2021-07-03T12:26:03Z" finished-at="2021-07-03T12:26:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestOne@47c62251]" name="tearDown" is-config="true" duration-ms="390" started-at="2021-07-03T12:50:49Z" finished-at="2021-07-03T12:50:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
