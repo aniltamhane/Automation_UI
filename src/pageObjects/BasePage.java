@@ -7,10 +7,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import utils.StringUtils;
+
 public class BasePage {
 	
-	protected WebDriver driver;
+	WebDriver driver;
 	WebDriverWait wait;
+	StringUtils objStringUtils = new StringUtils();
 
 	
 	public BasePage (WebDriver driver) {
@@ -47,10 +50,18 @@ public class BasePage {
 				break;
 				
 			case "INDEX":
-				objDropdwon.selectByIndex(Integer.parseInt(method));
+				objDropdwon.selectByIndex(Integer.parseInt(method));;
 				break;
 				
-		}
+		}	
+
+	}
+	
+	
+	public String getTextFromElement(WebElement ele){
+		
+		return ele.getText();
+		
 	}
 
 

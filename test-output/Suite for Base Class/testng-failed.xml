@@ -5,10 +5,9 @@
     <classes>
       <class name="tests.TestOne">
         <methods>
-          <include name="TCOne"/>
           <include name="tearUp"/>
-          <include name="TCTwo"/>
           <include name="tearDown"/>
+          <include name="TCFour_TShirts"/>
         </methods>
       </class> <!-- tests.TestOne -->
     </classes>
