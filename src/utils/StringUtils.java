@@ -10,6 +10,12 @@ public class StringUtils {
 		return Integer.parseInt(s2);
 	}
 	
+	public double getDoubleFromString(String s1){
+		
+		String s2 = s1.replaceAll("[$,]", "");
+		return Double.parseDouble(s2);
+	}
+	
 	//This method compares the strings
 	public boolean compareStrings(String s1, String s2){
 		
